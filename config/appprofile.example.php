@@ -559,7 +559,6 @@ $_ENV['Clash_Group_Config'] = [
         'DST-PORT,9999,🎯 Direct',
         'GEOIP,cn,🎯 Direct',
         'GEOIP,private,🎯 Direct,no-resolve',
-        'GEOSITE,cn,🎯 Direct',
         'PROCESS-NAME,DownloadService,🎯 Direct',
         'PROCESS-NAME,Folx,🎯 Direct',
         'PROCESS-NAME,Motrix,🎯 Direct',
@@ -573,23 +572,12 @@ $_ENV['Clash_Group_Config'] = [
         'PROCESS-NAME,fdm,🎯 Direct',
         'PROCESS-NAME,qbittorrent,🎯 Direct',
         'PROCESS-NAME,uTorrent,🎯 Direct',
-        // Microsoft
-        'GEOSITE,microsoft,Ⓜ️ Microsoft',
-        // Apple
-        'GEOSITE,apple,🍎 Apple',
         // Telegram
         'GEOIP,telegram,📲 Telegram',
-        'GEOSITE,telegram,📲 Telegram',
         // Netflix
         'GEOIP,netflix,🎥 Netflix',
-        'GEOSITE,netflix,🎥 Netflix',
-        // 国外媒体
-        'GEOSITE,category-media,🌍 主流媒体',
-        // 中国媒体
-        'GEOSITE,category-media-cn,🇨🇳 中国媒体',
         // 广告拦截
         'GEOIP,ad,⛔️ 广告拦截',
-        'GEOSITE,category-ads-all,⛔️ 广告拦截',
         // :)
         // https://github.com/hoshsadiq/adblock-nocoin-list
         'DOMAIN-SUFFIX,1q2w3.fun,🛑 Block',
