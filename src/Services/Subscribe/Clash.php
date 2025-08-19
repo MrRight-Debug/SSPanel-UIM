@@ -119,7 +119,7 @@ final class Clash extends Base
                         'server' => $node_raw->server,
                         'port' => (int) $v2_port,
                         'uuid' => $user->uuid,
-                        'alterId' => 0,
+                        'alterId' => 32,
                         'cipher' => $encryption,
                         'udp' => (bool) $udp,
                         'tls' => $tls,
